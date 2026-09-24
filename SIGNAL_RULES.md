@@ -10,6 +10,8 @@ Account: Robinhood "Agentic" account only
 | First trim (`in runners`, `trim`, `taking some off`, etc.) | Sell **25%** of the position |
 | Later trims | Ignore (hold the rest) |
 | `all out` | Sell the remaining **75%** (entire position) |
+| New entry while already in a trade | Buy with **all remaining** buying power |
+| No `all out` on a 0DTE | Hold; Robinhood force-closes at 3:45pm ET |
 | `41%`, `50%`, ... (P/L updates) | Ignore |
 
 ## Defaults (change if needed)
